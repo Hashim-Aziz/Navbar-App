@@ -12,7 +12,6 @@ const Navbar = () => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
 
     if (showLink) {
-      console.log(linksHeight);
       linksContainerRef.current.style.height = `${linksHeight}px`;
     } else {
       linksContainerRef.current.style.height = "0px";
